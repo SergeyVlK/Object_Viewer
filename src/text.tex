@@ -1,0 +1,67 @@
+\documentclass[12pt, a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+
+\title{s21\_3D\_Viewer\_v1}
+
+\author{doriangr, nylabeck}
+
+\date{10/05/2023}
+
+
+\begin{document}
+
+\maketitle
+
+
+\section{About}
+
+The s21\_3D\_Viewer\_v1 has a graphical interface written using the qt5.
+Calculator was developed on the Ubuntu 22.04.
+
+The s21\_3D\_Viewer\_v1 implements a program to view 3D wireframe models (3D Viewer) in the C programming language. The models themselves must be loaded from .obj files and be viewable on the screen with the ability to rotate, scale and translate.
+
+\section{Make targets}
+\begin{itemize}
+    \item build - builds an executable from source files
+    \item install - installs the program as it is accepted by the Linux environment for the current user (the icon appears in the application menu)
+    \item uninstall - deletes the program as is customary in the Linux environment for the current user
+    \item test - running unit tests of modules related to expression evaluation using the Check library
+    \item gcov\_report - displays information about code coverage by tests
+    \item dist - creating an archive containing the distribution
+  delivery of this program
+    
+  \end{itemize}
+
+
+\section{Program features}
+
+  \begin{itemize}
+    \item moving the model along the x, y and z axes
+    \item rotation of the model along the axes
+    \item rescaling the model
+    \item setting color and tapa line for ribs
+    \item vertex color and shape customization
+    \item background color setting
+    \item perspective type setting (central and parallel)
+    \item Setting the distance from the camera to the plane for the central projection
+    \item save settings between restarts
+    \item creating screenshots of the model projection
+  \end{itemize}
+
+\section{Use case}
+  \begin{itemize}
+    \item Run
+    \item Click the "load Model" button
+    \item Enjoy
+    \item Press the "snapshot" button
+    \item Press the "make gif" button and change the model several times
+    \item View saved screenshot and GIF
+    \item Enjoy
+    \item Download new model
+    \item Change display options
+    \item Enjoy again
+    \item Close program
+  \end{itemize}
+\end{document}
